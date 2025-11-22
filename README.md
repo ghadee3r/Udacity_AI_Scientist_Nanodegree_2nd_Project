@@ -6,9 +6,13 @@ I implemented a custom transformer architecture ("DemoGPT") and trained it on th
 
 ## What I did
 1- Loaded and processed the IMDB dataset
+
 2- Used the BERT tokenizer for subword tokenization
+
 3- Built a transformer model from scratch (attention heads, feed-forward layers, positional embeddings)
+
 4- Trained it
+
 5- Evaluated accuracy on validation and test sets
 
 The final model reached 76.5% test accuracy, which was the goal. 
@@ -16,6 +20,10 @@ The final model reached 76.5% test accuracy, which was the goal.
 
 ## What I Learned
 1- How transformers actually work.
+
 2- How much tokenization impacts model performance
+
 3- How to build a full ML pipeline
+
 4- How to debug training loops and get a model to converge
+
